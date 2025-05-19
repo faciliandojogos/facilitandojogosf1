@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #00ffff;
+}
+
+header {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.header-img {
+    width: 100%;
+    height: 200px;
+    background: url('img/one.png') no-repeat center center;
+    background-size: cover;
+    margin-top: 20px;
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 15px #00ffff;
+}
+
+h1, h2 {
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff;
+}
+
+.descricao {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.downloads .btn {
+    display: block;
+    width: 90%;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    background-color: transparent;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 0 10px #00ffff;
+}
+
+.downloads .btn:hover {
+    background-color: #00ffff;
+    color: #1e1e1e;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+    color: #00ffff;
+    border-top: 1px solid #00ffff;
+}
+
